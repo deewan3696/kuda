@@ -64,3 +64,63 @@ ul li:hover ul.dropdown-menu {
     border-radius:15px;
     
 }
+
+.img-float{
+    float:left;
+    /* width:100%; */
+    padding:0px;
+}
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+/* #img2{
+    width:100%;
+} */
+/* #img3{
+    width: 250px;
+    z-index: index -2;
+} */
+
+#img3{
+    float: right;
+    width: 100%;
+    margin-left: -200%;
+    /* padding-top: 15%; */
+    position: relative;
+    z-index:1;
+}
+
+#img2{
+    float: left;
+    /* width: 75%; */
+    height: 300px;
+    margin-left: -10%;
+    padding-top: 15%;
+    position: relative;
+    /* z-index: 1; */
+    margin-top: 50%;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 305.56px 305.56px 305.56px;
+    grid-template-rows: 139.95px 139.95px 139.95px;
+    justify-content:center;
+}
+.box{
+    width:305.56px;
+    height:139.95px;
+    padding:22px 25px;
+    background-color: #ffffff;
+    
+}
+.P{
+    width:255.56px;
+    height: 40.95px;
+    font:13.65px;
+    color:#40196d;
+    font-family:muli,sans-serif;
+    
+}
